@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 
 	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/Yamashou/gqlgenc/client"
-	"github.com/Yamashou/gqlgenc/introspection"
+	"github.com/maaft/gqlgenc/client"
+	"github.com/maaft/gqlgenc/introspection"
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/validator"
 	"golang.org/x/xerrors"

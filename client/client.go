@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Yamashou/gqlgenc/graphqljson"
+	"github.com/maaft/gqlgenc/graphqljson"
 	"golang.org/x/xerrors"
 )
 
