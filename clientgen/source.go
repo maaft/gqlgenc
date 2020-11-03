@@ -196,7 +196,7 @@ func (s *Source) Mutation() (*Mutation, error) {
 
 func getResponseStructName(operation *ast.OperationDefinition) string {
 	if operation.Operation == ast.Mutation {
-		return fmt.Sprintf("%sPayload", operation.Name)
+		return fmt.Sprintf("%sClientPayload", operation.Name)
 	}
 
 	return operation.Name
